@@ -53,7 +53,7 @@ export default {
     </b-field>
 
     <b-field label="Finishing Time" label-position="on-border">
-      <b-timepicker inline placeholder="Select Finishing Time ..." :default-minutes=0 :increment-minutes=15 v-model="finishTime" />
+      <b-timepicker placeholder="Select Finishing Time ..." :default-minutes=0 :increment-minutes=15 v-model="finishTime" />
     </b-field>
 
     <b-button type="is-primary" @click="calculateTimers">Calculate Timers</b-button>
